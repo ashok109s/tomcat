@@ -67,4 +67,8 @@ goto tomcat home directory and Add below users to conf/tomcat-users.xml file
 	<user username="deployer" password="deployer" roles="manager-script"/>
 	<user username="tomcat" password="s3cret" roles="manager-gui"/>
    ```
+
+   vi /opt/apache-tomcat-8.5.97/webapps/manager/META-INF/context.xml
+   --> 127.0.0.1
+   
 1. Restart serivce and try to login to tomcat application from the browser. This time it should be Successful
