@@ -1,1 +1,1 @@
-gi push
+gi push origin master
